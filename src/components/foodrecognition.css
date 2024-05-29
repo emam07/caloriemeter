@@ -1,0 +1,51 @@
+/* FoodRecognition.css */
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Hide scrollbars */
+    background:url("https://img.freepik.com/free-vector/stars-universe_1035-19109.jpg?w=1060&t=st=1716980039~exp=1716980639~hmac=58347626a0890e420be43263aaebe07fb9a5f784794d18bb9d2fc9e81b864026");
+    background-size: cover;
+    background-position: center;
+  
+}
+
+  
+.container {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container h1{
+    color: white;
+}
+.upload-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.uploaded-image {
+    display: block;
+    max-width: 20%;
+    margin: 20px auto;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+.result h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.result p {
+    color: white;
+    font-size: 18px;
+}
